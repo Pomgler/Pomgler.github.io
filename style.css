@@ -270,3 +270,112 @@ main {
     gap: 24px;
     align-items: center;
 }
+
+@media (max-width: 600px) {
+    .welcome-container {
+        width: 90%;
+        margin: 80px auto;
+        font-size: 50px;
+    }
+
+    .about, .reservation-form, .menu > div {
+        width: 90%;
+        margin: 30px auto;
+        padding: 15px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .menu img {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-list li {
+        display: block;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .nav-list-link {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .div-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info {
+        margin: 10px 0;
+    }
+
+    .arrow-icon {
+        right: 10px;
+        bottom: 20px;
+    }
+
+    .modal {
+        width: 90%;
+        max-height: 80%;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .welcome-container {
+        width: 80%;
+        margin: 120px auto;
+        font-size: 75px;
+    }
+
+    .about, .reservation-form, .menu > div {
+        width: 80%;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .menu {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .menu img {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-list li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .nav-list-link {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .div-info {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .info {
+        margin: 0 20px;
+    }
+
+    .arrow-icon {
+        right: 20px;
+        bottom: 30px;
+    }
+
+    .modal {
+        width: 80%;
+        max-height: 80%;
+    }
+}
