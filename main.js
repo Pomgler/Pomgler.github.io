@@ -1,4 +1,3 @@
-import './style.css'
 
 const arrow = document.querySelector(".arrow-icon");
 const closeIcon = document.querySelector(".close-icon");
